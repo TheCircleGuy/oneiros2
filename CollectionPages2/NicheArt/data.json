@@ -1,0 +1,82 @@
+{
+  "collection": {
+    "videoSource": "collection_video.mp4",
+    "mainTitle": "Art Concept",
+    "subtitle": "Where creativity meets craftsmanship, pushing the boundaries of perfumery. ",
+    "collectionTitle": "Our Collection",
+    "collectionDescription": "Explore the finest selection of niche fragrances and wearables.",
+    "gridArticles": [
+      {
+        "title": "Floritura",
+        "imgSource": "pic2.jpg",
+        "productId": "floritura"
+      },
+      {
+        "title": "Aquative",
+        "imgSource": "pic1.jpg",
+        "productId": "Aquative"
+      },
+      {
+        "title": "WaterMoon",
+        "imgSource": "pic3.jpg",
+        "productId": "WaterMoon"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "floritura",
+      "videoSource": "floritura_videso.mp4",
+      "productFallbackImage": "floritura_pic1.jpg",
+      "InspireImage": "floritura_pic2.jpg",
+      "productVideoTitle": "FLORITURA",
+      "productVideoSubtitle": "Delicate Florals, Endless Alluree",
+        "testimonialsParagraph": "Floritura draws its inspiration from the delicate beauty of blooming gardens at dawn, where the first rays of sunlight awaken the vivid colors and soft fragrances of nature. This fragrance captures the essence of fresh florals and lush greenery, evoking a sense of timeless elegance and serenity.",
+      "productStatsImage": "floritura_pic3.jpg",
+      "productStatsTitle": "Floritura",
+      "productStatsCategory": "Art Concept",
+      "productStatsDescription": "Floritura opens with a bright burst of bergamot, bringing a fresh citrus sparkle that uplifts the senses. The heart reveals the delicate elegance of tulip petals, grounded by a warm, velvety base of musk for a lasting, sophisticated allure.",
+      "productStatsInfo": {
+        "size": "30ml",
+        "composition": "Bergamot, Tulip, Musk"
+      },
+      "collectionLink": "collectionPage.html"
+    },
+    {
+      "id": "Aquative",
+      "videoSource": "aquative_videso.mp4",
+      "productFallbackImage": "aquative_pic1.jpg",
+      "InspireImage":"aquative_pic2.jpg",
+      "productVideoTitle": "Aquative",
+      "productVideoSubtitle": "Depth in Every Note",
+      "testimonialsParagraph": "Aquative is inspired by the art of fine craftsmanship, drawing parallels between the aging of whisky and the blending of powerful, aromatic notes. It celebrates the boldness of character and the journey of transformation, evoking the spirit of adventure and sophistication.",
+      "productStatsImage": "aquative_pic3.jpg",
+      "productStatsTitle": "Aquative",
+      "productStatsCategory": "Niche Wearable",
+      "productStatsDescription": "Aquative captivates with the warmth of rich whisky, evoking a sense of timeless indulgence. The smoky allure of tobacco mingles with a dash of spice, creating a bold, daring fragrance that lingers with refined intensity.",
+      "productStatsInfo": {
+        "size": "One Size",
+        "composition": "Whisky, Tobacco, Spice"
+      },
+      "collectionLink": "collectionPage.html"
+    },
+    {
+      "id": "WaterMoon",
+      "videoSource": "watermoon_videso.mp4",
+      "productFallbackImage": "watermoon_pic1.jpg",
+      "InspireImage":"watermoon_pic2.jpg",
+      "productVideoTitle": "Water Moon",
+      "productVideoSubtitle": "A Dance of Spice and Serenity",
+      "testimonialsParagraph": "Watermoon is inspired by the serene beauty of moonlit waters, where gentle ripples reflect the fiery hues of distant horizons. It captures the balance between softness and intensity, evoking a sense of exotic allure and timeless tranquility.",
+      "productStatsImage": "watermoon_pic3.jpg",
+      "productStatsTitle": "Water Moon",
+      "productStatsCategory": "Niche Fragrance",
+      "productStatsDescription": "Watermoon enchants with the delicate muskiness of ambrette seed, unfolding into the warm, spicy embrace of cinnamon and saffron. This sophisticated blend weaves a tapestry of mystery and elegance, leaving an unforgettable impression.",
+      "productStatsInfo": {
+        "size": "50ml",
+        "composition": "Ambrette Seed, Cinnamon, Saffron"
+      },
+      "collectionLink": "collectionPage.html"
+    }
+  ]
+}
