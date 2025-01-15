@@ -1,0 +1,130 @@
+.preloader {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Use viewport height for full-screen coverage */
+    overflow: hidden;
+    z-index: 100;
+    transition: opacity 0.3s ease;
+    margin-top: 0; /* Reset margin for consistency */
+    animation: disappear 3s 3s forwards;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}
+
+.preloader .no-display {
+    display: none;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.animation-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem; /* Add spacing between elements */
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    background: white;
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+.line.left {
+    width: 0;
+    left: 0;
+    animation: slideInLeft 2s forwards;
+}
+
+.line.right {
+    width: 0;
+    right: 0;
+    animation: slideInRight 2s forwards;
+}
+
+.logo_preloader {
+
+    z-index: 100;
+    opacity: 0;
+    max-width: 30%; /* Adjust size for responsiveness */
+    animation: fadeIn 2s 2s forwards;
+}
+
+#typewriter-text {
+    font-size: 1.5rem; /* Responsive font size */
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+@keyframes slideInLeft {
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes slideInRight {
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    to {
+        opacity: 0;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo_preloader {
+        max-width: 40%; /* Slightly larger for tablets */
+    }
+
+    .line {
+       visibility: hidden; /* Thinner lines */
+    }
+
+    #typewriter-text {
+        font-size: 1.25rem; /* Adjust font size for tablets */
+        padding: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_preloader {
+        max-width: 50%; /* Larger logo for smaller screens */
+    }
+
+    .line {
+        visibility: hidden; /* Thinner lines */
+    }
+
+    #typewriter-text {
+        font-size: 1rem;
+        padding: 25px; /* Smaller font size for mobile */
+    }
+}

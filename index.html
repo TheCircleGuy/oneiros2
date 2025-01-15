@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typewriter Effect</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link href="styles.css"
+    rel="stylesheet" type="text/css" />
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Charlie, sans-serif;
+            background-color: black;
+        }
+        #typewriter {
+            font-size: 80px;
+            font-weight: 200;
+            padding:25px;
+        }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #typewriter {
+          text-align: center;
+        }
+}
+    </style>
+</head>
+<body>
+    <div id="typewriter"></div>
+
+    <script>
+        const typewriter = new Typewriter('#typewriter', {
+            autoStart: true,
+            loop: false,
+            delay: 75,
+        });
+
+        typewriter
+            .typeString('A Symphony of Dreams and Scents')
+            .callFunction(() => {
+                console.log('Typing complete! Redirecting...');
+                setTimeout(() => {
+                    window.location.href = 'home.html';
+                }, 1000); // Redirect after 1 second
+            })
+            .start();
+    </script>
+</body>
+</html>
