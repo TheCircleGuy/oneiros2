@@ -1,21 +1,12 @@
 {
   "collection": {
     "videoSource": "collection_video.mp4",
-    "mainTitle": "Art Concept",
-    "subtitle": "Where creativity meets craftsmanship, pushing the boundaries of perfumery. ",
-    "collectionTitle": "Our Collection",
-    "collectionDescription": "Explore the finest selection of niche fragrances and wearables.",
+    "mainTitle": "Artistic scents",
+    "subtitle": "Olfactory masterpieces—crafted with emotion, storytelling, and a deep connection to the perfumer’s dreams.",
+    "collectionTitle": "Featured Scents",
+    "collectionDescription": "Niche Art scents for Niche Artistic lovers",
     "gridArticles": [
-      {
-        "title": "Floritura",
-        "imgSource": "pic2.jpg",
-        "productId": "floritura"
-      },
-      {
-        "title": "Aquative",
-        "imgSource": "pic1.jpg",
-        "productId": "Aquative"
-      },
+     
       {
         "title": "WaterMoon",
         "imgSource": "pic3.jpg",
@@ -25,56 +16,20 @@
   },
   "products": [
     {
-      "id": "floritura",
-      "videoSource": "floritura_videso.mp4",
-      "productFallbackImage": "floritura_pic1.jpg",
-      "InspireImage": "floritura_pic2.jpg",
-      "productVideoTitle": "FLORITURA",
-      "productVideoSubtitle": "Delicate Florals, Endless Alluree",
-        "testimonialsParagraph": "Floritura draws its inspiration from the delicate beauty of blooming gardens at dawn, where the first rays of sunlight awaken the vivid colors and soft fragrances of nature. This fragrance captures the essence of fresh florals and lush greenery, evoking a sense of timeless elegance and serenity.",
-      "productStatsImage": "floritura_pic3.jpg",
-      "productStatsTitle": "Floritura",
-      "productStatsCategory": "Art Concept",
-      "productStatsDescription": "Floritura opens with a bright burst of bergamot, bringing a fresh citrus sparkle that uplifts the senses. The heart reveals the delicate elegance of tulip petals, grounded by a warm, velvety base of musk for a lasting, sophisticated allure.",
-      "productStatsInfo": {
-        "size": "30ml",
-        "composition": "Bergamot, Tulip, Musk"
-      },
-      "collectionLink": "collectionPage.html"
-    },
-    {
-      "id": "Aquative",
-      "videoSource": "aquative_videso.mp4",
-      "productFallbackImage": "aquative_pic1.jpg",
-      "InspireImage":"aquative_pic2.jpg",
-      "productVideoTitle": "Aquative",
-      "productVideoSubtitle": "Depth in Every Note",
-      "testimonialsParagraph": "Aquative is inspired by the art of fine craftsmanship, drawing parallels between the aging of whisky and the blending of powerful, aromatic notes. It celebrates the boldness of character and the journey of transformation, evoking the spirit of adventure and sophistication.",
-      "productStatsImage": "aquative_pic3.jpg",
-      "productStatsTitle": "Aquative",
-      "productStatsCategory": "Niche Wearable",
-      "productStatsDescription": "Aquative captivates with the warmth of rich whisky, evoking a sense of timeless indulgence. The smoky allure of tobacco mingles with a dash of spice, creating a bold, daring fragrance that lingers with refined intensity.",
-      "productStatsInfo": {
-        "size": "One Size",
-        "composition": "Whisky, Tobacco, Spice"
-      },
-      "collectionLink": "collectionPage.html"
-    },
-    {
       "id": "WaterMoon",
       "videoSource": "watermoon_videso.mp4",
       "productFallbackImage": "watermoon_pic1.jpg",
       "InspireImage":"watermoon_pic2.jpg",
       "productVideoTitle": "Water Moon",
-      "productVideoSubtitle": "A Dance of Spice and Serenity",
-      "testimonialsParagraph": "Watermoon is inspired by the serene beauty of moonlit waters, where gentle ripples reflect the fiery hues of distant horizons. It captures the balance between softness and intensity, evoking a sense of exotic allure and timeless tranquility.",
+      "productVideoSubtitle": "水中月<br>The moon in the water.",
+      "testimonialsParagraph": "Water moon describes beauties that can only be seen and felt, but never touched.<br>This is a definition that couldn’t be more perfect for describing scent notes",
       "productStatsImage": "watermoon_pic3.jpg",
       "productStatsTitle": "Water Moon",
-      "productStatsCategory": "Niche Fragrance",
-      "productStatsDescription": "Watermoon enchants with the delicate muskiness of ambrette seed, unfolding into the warm, spicy embrace of cinnamon and saffron. This sophisticated blend weaves a tapestry of mystery and elegance, leaving an unforgettable impression.",
+      "productStatsCategory": "Artistic Scents",
+      "productStatsDescription": "In the fading dream, Water Moon is inspired by the Chinese proverb “水中月” (Shuǐ Zhōng Yuè)—the moon in the water. This creation symbolizes an ethereal beauty, one that can only be wished for but never touched.<br>Like stars in the sky, like the moon in the water, the fragrance of Water Moon is peaceful and dreamy, floating delicately on the skin.<br>There is no specific description of Water Moon, as what it holds is too personal, like a fleeting reverie in the human world.",
       "productStatsInfo": {
         "size": "50ml",
-        "composition": "Ambrette Seed, Cinnamon, Saffron"
+        "composition": "<br>Top notes: Cinnamon, Saffron, Aldehyde<br>Middle notes: Ambrette seed, Orris, Freesia<br>Base notes: Musk, Amber, Moss"
       },
       "collectionLink": "collectionPage.html"
     }
