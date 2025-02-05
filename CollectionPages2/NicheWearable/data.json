@@ -1,0 +1,59 @@
+{
+  "collection": {
+    "videoSource": "collection_videso.mp4",
+    "mainTitle": "Wearable scents",
+    "subtitle": "Designed for harmony with the wearer, these fragrances blend seamlessly with body chemistry, creating a personal aura that feels natural yet distinctive..",
+    "collectionTitle": "Featured Scents",
+    "collectionDescription": "Explore the finest selection of niche fragrances and wearables.",
+    "gridArticles": [
+      {
+        "title": "Floritura",
+        "imgSource": "pic2.jpg",
+        "productId": "floritura"
+      },
+      {
+        "title": "Aquative",
+        "imgSource": "pic1.jpg",
+        "productId": "Aquative"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "floritura",
+      "videoSource": "floritura_videso.mp4",
+      "productFallbackImage": "floritura_pic1.jpg",
+      "InspireImage": "floritura_pic2.jpg",
+      "productVideoTitle": "FLORITURA",
+      "productVideoSubtitle": "Reflects the beauty of growth soft yet resilient.",
+        "testimonialsParagraph": "A Tulip Garden on your body. Floritura is an Italian word meaning blooming, soaring. Floritura draws its inspiration from the delicate beauty of blooming gardens at dawn, where the first rays of sunlight awaken the vivid colors and soft fragrances of nature. This fragrance captures the essence of fresh florals and lush greenery, evoking a sense of timeless elegance and serenity.",
+      "productStatsImage": "floritura_pic3.jpg",
+      "productStatsTitle": "Floritura",
+      "productStatsCategory": "Wearable Scents ",
+      "productStatsDescription": "It is a scene so beautifully ethereal, set in a garden with no name. Tulips shyly emerge after the rain, and the sun stretches long across the leaves. Floritura embraces the still yet powerful pulse of life after the night's storm, clean and fresh. The gentle and elegant notes of white flowers intertwine with the damp earthiness of the garden and a faint touch of green, creating a complete symphony. <br> Floritura reflects the beauty of growth—soft yet resilient. Flowers are often associated with fragility, but Floritura is a reminder of their enduring vitality. After the storm, the roots remain firmly embedded in the soil, unyielding to the tempest. <br> And the day dawns again.",
+      "productStatsInfo": {
+        "size": "30ml",
+        "composition": "<br>Top notes: Bergamot, Cardamom, Blackcurrant <br> Middle notes: Tulip, Water Lily, Rose, Jasmine <br> Base notes: Musk, Amber, Patchouli"
+      },
+      "collectionLink": "collectionPage.html"
+    },
+    {
+      "id": "Aquative",
+      "videoSource": "aquative_videso.mp4",
+      "productFallbackImage": "aquative_pic1.jpg",
+      "InspireImage":"aquative_pic2.jpg",
+      "productVideoTitle": "Aquative",
+      "productVideoSubtitle": "The embodiment of pure beauty and the eternal journey that embraces its origins.",
+      "testimonialsParagraph": "From the Old-fashioned cooktail. Aquavite is inspired by the original name of Whisky when it first appeared, 'Aqua Vitae'. <br> In Latin, it is translated to mean 'The Water of Life'",
+      "productStatsImage": "aquative_pic3.jpg",
+      "productStatsTitle": "Aquative",
+      "productStatsCategory": "Wearable Scents ",
+      "productStatsDescription": "Aquavite carries with it an elegant beauty and a nostalgic, wistful charm. Aquavite reimagines the centuries-old history of whisky craftsmanship. As a tribute to the skilled hands of artisans who devote their lives to fermenting and preserving tradition, Aquavite is a dance of whisky, fruit, and tobacco—an alluring fragrance, complex in the simplest way.<br>Unpretentious and quiet, Aquavite is the embodiment of pure beauty and the eternal journey that embraces its origins.",
+      "productStatsInfo": {
+        "size": "One Size",
+        "composition": "<br>Top notes: Whisky, Grapefruit, Cherry<br>Middle notes: Tobacco, Frankincense, Clove, Cinnamon<br>Base notes: Vanilla, Musk, Amber"
+      },
+      "collectionLink": "collectionPage.html"
+    }
+  ]
+}
